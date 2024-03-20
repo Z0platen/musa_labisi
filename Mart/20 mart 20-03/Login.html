@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+    $login1="Login";
+    $Login2="Login";
+    $pass1="123";
+    $pass2="123";
+    $count=0;
+if($count<3){
+    if($login1==$Login2 && $pass1==$pass2)
+    {
+
+        ?> <p>Giris ugurlu</p> <?php        
+    }
+    else
+    {
+        ?> <p>Giris zamani problem yasandi</p> <?php  
+    }
+    $count++;
+}
+else
+{
+    ?> <p>Hesab Bloklandi</p>  <?php 
+}
+
+
+    ?>
+</head>
+<body>
+    
+</body>
+</html>
